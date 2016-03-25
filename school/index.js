@@ -1,2 +1,2 @@
 var klass=require("./klass")
-class.add("zx",["wzw","dd"])
+klass.add("zx",["wzw","dd"])
