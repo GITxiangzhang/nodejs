@@ -1,9 +1,8 @@
-var student=require("/.student");
-var teacher=require("/.teacher");
-teacher.add("zx");
-function add(studens,teachername){
+var student=require('./student');
+var teacher=require('./teacher');
+function add(teachername,students){
     teacher.add(teachername);
-    studens.forEach(function(items,index){
+    students.forEach(function(items,index){
      student.add(items);
     })
 }
