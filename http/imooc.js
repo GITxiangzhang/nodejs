@@ -1,6 +1,8 @@
 var http=require('http')
 var url='http://www.imooc.com/learn/637'
-
+function filterChapters(html){
+	
+}
 http.get(url,function(res){
 
    var html=''
@@ -9,7 +11,8 @@ res.on('data',function(data){
 })
 
 res.on('end',function(end){
-	console.log(html)
+	filterChapters(html)
+	/*console.log(html)*/
 }) 
 
 
