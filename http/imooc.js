@@ -1,5 +1,5 @@
 var http=require('http')
-var url='http://www.imooc.com/video/7965'
+var url='http://www.imooc.com/learn/637'
 
 http.get(url,function(res){
 
